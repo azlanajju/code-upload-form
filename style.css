@@ -7,8 +7,8 @@
   justify-content: center; 
   align-items: center;
   margin-top: 100px;
-  transition: 5s;
-  animation:ajju 5s infinite;
+  transition: 2s;
+  animation:ajju 2s infinite;
   }
   .form {
     background-image: linear-gradient(135deg, white,grey);
@@ -48,7 +48,7 @@
     background-image: linear-gradient(135deg, white,grey);
     margin: 10px;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow:2px 4px 18px 12px rgba(20,20,20,0.4);
    
   }
@@ -86,12 +86,12 @@
 }
 @keyframes ajju{
   from{
-    background-image: linear-gradient(15deg,white, grey);
+    background-image: linear-gradient(125deg,black, grey);
  
   /*
     background-image:linear-gradient(135deg, red, black,); */
   }
   to{
-    background-image: linear-gradient(135deg,grey, white);
+    background-image: linear-gradient(135deg,grey, black);
   }
 }
