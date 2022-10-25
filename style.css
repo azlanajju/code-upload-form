@@ -1,10 +1,13 @@
 
   body{
+    height: 95vh;
     font-weight: bold;
   display: flex; 
   justify-content: center; 
   align-items: center;
   margin-top: 100px;
+  transition: 5s;
+  animation:ajju 5s infinite;
   }
   .form {
     background-image: linear-gradient(135deg, white,grey);
@@ -73,10 +76,21 @@
   color: white;
   margin:8px 0px;
   font-size: 50px;
-  background: orange;
+  background: orangered;
   border:none;
   font-weight:bold;
   border-radius: 15px;
   box-shadow:1px 2px 6px 4px rgba(230, 137, 76,0.4);
 }
+}
+@keyframes ajju{
+  from{
+    background-image: linear-gradient(15deg,white, green);
+ 
+  /*
+    background-image:linear-gradient(135deg, red, black,); */
+  }
+  to{
+    background-image: linear-gradient(135deg,green, white);
+  }
 }
