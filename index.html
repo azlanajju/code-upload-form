@@ -1,54 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  
+  <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <style>
-  body{
-  display: flex; 
-  justify-content: center; 
-  align-items: center;
-  margin-top: 100px;
-  }
-  .form {
-   
-  }
-  .question{
-    width:300px;
-  }
-    .code{
-    
-    text-align:left;
-    height: 150px;
-    width:300px;
-  }
-  </style>
+
 </head>
+
 <body>
-  <div class="form"></div>
-  <form action="">
-    <label for="name"> Name: </label>
-    <br>
-    <input name="name" type="text">
-    <br>
-    <br>
-    <label for="sem">Semester:</label>
-    <br>
-    <input type="text" name="sem">
-    <br>
-    <br>
-    <label  for="que">Question:</label>
-    <br>
-    <input class="question"  name="que" type="text">
-    <br>
-    <br>
-    <label for="code">code:</label>
-    <br>
-    <input class="code"  name="code" type="text">
-    
-  </form>
+  <div class="form">
+
+    <form action="https://formspree.io/f/mjvlzjod" method="POST">
+      <div class="fields">
+        <div class="field name">
+          <input type="text" name="name" placeholder="Name" required>
+        </div>
+        <div class="field email">
+          <input type="text" name="semester" placeholder="Semester" required>
+        </div>
+      </div>
+      <div class="field">
+        <input type="text" placeholder="Question" name="question" required>
+      </div>
+      <div class="field textarea">
+        <textarea cols="30" rows="10" placeholder="Code.." name="code" required></textarea>
+      </div>
+      <div class="submit">
+
+        <button type="submit">SUBMIT</button>
+      </div>
+    </form>
+  </div>
 </body>
+
 </html>
