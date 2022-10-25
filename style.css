@@ -85,12 +85,12 @@
 }
 @keyframes ajju{
   from{
-    background-image: linear-gradient(15deg,white, green);
+    background-image: linear-gradient(15deg,white, grey);
  
   /*
     background-image:linear-gradient(135deg, red, black,); */
   }
   to{
-    background-image: linear-gradient(135deg,green, white);
+    background-image: linear-gradient(135deg,grey, white);
   }
 }
