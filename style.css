@@ -20,10 +20,11 @@ body{
 	color: rgb(255, 255, 255);
 	font-size: 45px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	margin-bottom: 90px;
+	margin-bottom: 40px;
 }
 
 form {
+ 
 	text-align: center;
 }
 form textarea, input,button{

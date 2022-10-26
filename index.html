@@ -1,37 +1,46 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<title>login</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+  <title>login</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
- <div class="wrapper">
- 	<div class="heading">
- 		<h1>Upload Form</h1>
- 	</div>
-	<div class="form">
- 		<form method="POST" action="https://formspree.io/f/mjvlzjod">
+  <div class="wrapper">
+    <div class="heading">
+      <h1>Upload Form</h1>
+    </div>
+    <div class="form">
+      <form method="POST" action="https://formspree.io/f/mjvlzjod">
+        <span>
+          <i class="fa fa-user"></i>
+          <input type="text" placeholder="Enter your Name" name="Name">
+        </span><br>
+        <span>
+          <i class="fa-solid fa-bars"></i>
+          <input type="text" placeholder="Semester" name="Semester">
+        </span><br>
+        
  			<span>
- 				<i class="fa fa-user"></i>
- 				<input type="text" placeholder="Enter your Name" name="Name">
- 			</span><br>
- 			<span>
-                <i class="fa-solid fa-bars"></i>
- 				<input type="text" placeholder="Semester" name="Semester">
- 			</span><br>
- 			<span>
- 				<i class="fa fa-question-circle"></i>
- 				<input type="text" placeholder="Question (with Q.No)" name="Question">
- 			</span><br>
- 			<span>
-                <i class="fas fa-code"></i>
- 				<input class="code" type="text" placeholder=" program..." name="program">
- 			</span><br>
- 				<button>Submit</button>
-		</form>
-	</div>
- 	</div>
- </div>
+ 				<i class="fa fa-book"></i>
+ 				<input type="text" placeholder="subject" name="subject">
+ 			</span><br>        
+        <span>
+          <i class="fa fa-question"></i>
+          <input type="text" placeholder="Question (with Q.No)" name="Question">
+        </span>
+        <br>
+        <span>
+          <i class="fas fa-code"></i>
+          <input class="code" type="text" placeholder=" program..." name="program">
+        </span><br>
+        <button>Submit</button>
+      </form>
+    </div>
+  </div>
+  </div>
 </body>
+
 </html>
