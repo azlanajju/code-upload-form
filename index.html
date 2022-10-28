@@ -2,12 +2,22 @@
 <html>
 
 <head>
+  
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>login</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
+  <div class="pulse"></div>
+    <div class="content">
+  
   <div class="wrapper">
     <div class="heading">
       <h1>Upload Form</h1>
@@ -40,7 +50,15 @@
       </form>
     </div>
   </div>
+  
   </div>
+ 
+     <script>
+        $(window).on('load',function(){
+          
+           $(".pulse").fadeOut(3000);
+           $(".content").fadeIn(3000);         });
+    </script>
 </body>
 
 </html>
